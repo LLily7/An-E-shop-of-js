@@ -1,0 +1,138 @@
+.content {
+	width: 900px;
+	background: #fff;
+	padding: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.content>img {
+	width: 370px;
+	height: 353px;
+}
+.content form {
+	border: 1px #dcdcdc solid;
+	width: 364px;
+}
+.content form legend {
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	border-bottom: 1px #dcdcdc solid;
+	box-sizing: border-box;
+	padding: 22px 40px;
+	width: 100%;
+}
+.content form legend a {
+	font-weight: normal;
+	text-decoration: underline;
+	float: right;
+	font-size: 12px;
+}
+.content form legend a:hover {
+	color: #f36;
+}
+.content form .top_f {
+	width: 280px;
+	margin: 30px auto 0;
+	height: 28px;
+	border: 1px #ffd797 solid;
+	align-items: center;
+	font-size: 12px;
+	color: #f36;
+	display: none;
+}
+.content form .top_f img {
+	margin: 0 12px;
+}
+.content form fieldset {
+	border: none;
+	border-bottom: 1px #dcdcdc dotted;
+	width: 280px;
+	margin: 0 auto;
+	padding-bottom: 24px;
+}
+.ver {
+	width: 280px;
+	padding-top: 15px;
+	
+}
+.ver p {
+	font-size: 12px;
+	color: #666;
+}
+.ver p a {
+	color: #f36;
+	text-decoration: underline;
+	float: right;
+}
+.ver_img {
+	padding-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.ver_img a {
+	display: block;
+	width: 68px;
+	height: 68px;
+	background-size: 272px 272px;
+}
+.content form fieldset>input {
+	width: 280px;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 5px;
+	margin-top: 15px;
+	border: 1px #cfcfcf solid;
+}
+
+.content form fieldset>a {
+	display: block;
+	width: 282px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	margin-top: 15px;
+	background: #f36;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.content form fieldset>p {
+	font-size: 12px;
+	margin-top: 15px;
+}
+.content form fieldset>p a {
+	color: #f36;
+	text-decoration: underline;
+	float: right;
+}
+form>p {
+	padding: 24px 0 18px;
+	font-size: 14px;
+	color: #666;
+	width: 280px;
+	margin: 0 auto;
+}
+.btm_f {
+	width: 280px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.btm_f a {
+	display: block;
+	width: 86px;
+	height: 35px;
+	border: none;
+}
+.btm_f a:nth-child(1) {
+	background: url(../img/register/reg_b.png) no-repeat -6px -120px;
+}
+.btm_f a:nth-child(2) {
+	background: url(../img/register/reg_b.png) no-repeat -6px -160px;
+}
+.btm_f a:nth-child(3) {
+	background: url(../img/register/reg_b.png) no-repeat -6px -200px;
+}

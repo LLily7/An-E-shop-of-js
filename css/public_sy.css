@@ -1,0 +1,414 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "微软雅黑";
+}
+img {
+	display: block;
+	border: none;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+.layout {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*fixed_l start*/
+.fixed_l {
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	z-index: 999;
+	width: 264px;
+}
+/*fixed_l end*/
+
+/*moment start*/
+.moment img {
+	width: 1200px;
+}
+/*moment end*/
+/*top start*/
+.top {
+	height: 156px;
+	display: flex;
+	justify-content: space-between;
+}
+.top>a {
+	display: block;
+	width: 204px;
+	height: 52px;
+	margin-top: 40px;
+}
+.top .logo {
+	width: 204px;
+	height: 52px;
+}
+.top .seek {
+	padding-top: 20px;
+	position: relative;
+}
+.top .seek p:nth-child(1) {
+	display: flex;
+	justify-content: flex-start;
+	height: 24px;
+}
+.top .seek p:nth-child(1) a {
+	display: block;
+	width: 56px;
+	height: 24px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 24px;
+}
+.top .seek p:nth-child(1) a.click {
+	background: #f36;
+	color: #fff;
+}
+.top .seek p:nth-child(1) a.noclick {
+	background: #f2f2f2;
+	color: #666;
+}
+.top .seek p:nth-child(2) {
+	height: 32px;
+}
+.top .seek p:nth-child(2) input {
+	width: 435px;
+	height: 28px;
+	border: 2px #f36 solid;
+	padding-left: 10px;
+	font-size: 12px;
+	float: left;
+}
+#menu {
+	position: absolute;
+	box-sizing: border-box;
+	border: 1px #eee solid;
+	width: 447px;
+	top: 76px;
+	background: #fff;
+	z-index: 1000;
+}
+#menu a {
+	background: #fff;
+	color: #666;
+}
+#menu a:hover {
+	background: #eee;
+	color: #f36;
+}
+.top .seek p:nth-child(2) a {
+	display: block;
+	float: left;
+	width: 70px;
+	height: 32px;
+	background: #f36 url(../img/header/mls_2.png) no-repeat center center;
+}
+.top .seek p:last-child {
+	margin-top: 5px;
+}
+.top .seek p:last-child a {
+	font-size: 12px;
+	padding-right: 10px;
+}
+/*top end*/
+/*nav start*/
+.nav_back {
+	border-bottom: 1px #dedede solid;
+}
+.nav {
+	display: flex;
+}
+.nav li {
+	flex: 1;
+}
+.nav a {
+	display: inline-block;
+	height: 42px;
+	font-size: 16px;
+	line-height: 42px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.nav a.in {
+	color: #f36;
+	border-bottom: 2px #f36 solid;
+}
+.nav a.co {
+	color: #666;
+	border: none;
+}
+/*nav end*/
+/*banner start*/
+.banner {
+	height: 400px;
+	padding-top: 10px;
+	position: relative;
+	
+}
+.banner_img {
+	position: absolute;
+	width: 1200px;
+	height: 400px;
+	overflow: hidden;
+}
+.banner_img a {
+	display: block;
+	width: 1200px;
+	height: 400px;
+	position: absolute;
+	
+}
+.banner>a {
+	display: block;
+	width: 36px;
+	height: 44px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 3;
+}
+.banner_l {
+	left: 0;
+	background: url(../img/header/banner_l.png);
+}
+.banner_r {
+	right: 0;
+	background: url(../img/header/banner_r.png);
+}
+.banner p {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: 20px;
+	width: 60px;
+	display: flex;
+	justify-content: space-between;
+	z-index: 3;
+}
+.banner p a {
+	display: block;
+	border-radius: 5px;
+	background: #fff;
+	height: 10px;
+}
+.banner p a.rec {
+	width: 20px;
+}
+.banner p a.cir {
+	width: 10px;
+}
+/*banner end*/
+/*go start*/
+.go {
+	display: flex;
+	padding-top: 20px;
+}
+.go img {
+	width: 300px;
+}
+/*go end*/
+/*tit start*/
+.tit {
+	position: relative;
+}
+.tit ul {
+	width: 200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 54px;
+}
+.tit ul li {
+	width: 36px;
+	height: 30px;
+	position: relative;
+}
+.tit ul li a {
+	font-size: 20px;
+	display: block;
+	width: 80px;
+	position: absolute;
+	left: -22px;
+}
+.tit ul li.btm {
+	border-bottom: 3px #f36 solid;
+}
+.tit ul li.btm a {
+	color: #f36;
+}
+.tit ul li.btm_n {
+	border-bottom: none;
+}
+.tit ul li.btm_n a {
+	color: #000;
+}
+.tit>a {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 12px;
+}
+/*tit end*/
+/*tit_c start*/
+.tit_c>div>div {
+	display: flex;
+	justify-content: space-between;
+}
+.tit_c>div>div>div {
+	width: 224px;
+	padding-top: 24px;
+}
+.tit_c div img {
+	width: 224px;
+	height: 340px;
+}
+.tit_c div div div div {
+	height: 38px;
+	line-height: 38px;
+	color: #f36;
+}
+.tit_c div span {
+	display: block;
+	float: right;
+	height: 38px;
+	font-size: 12px;
+	color: #999;
+	background: url(../img/content/con_s.png) no-repeat left center;
+	background-size: 14px 14px;
+	padding-left: 16px;
+}
+.tit_c div p {
+	height: 18px;
+	background: url(../img/content/con_yx.png) no-repeat;
+	background-size: 40px 18px;
+	width: 180px;
+	font-size: 14px;
+	color: #666;
+	padding-left: 44px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.tit_c .day_s {
+	display: block;
+}
+.tit_c .day_h {
+	display: none;
+}
+/*tit_c end*/
+/*set start*/
+.set p {
+	padding-top: 60px;
+	padding-bottom: 25px;
+}
+.set p span {
+	font-weight: bold;
+	font-size: 22px;
+	color: #666;
+}
+.set p a {
+	font-size: 12px;
+	margin-top: 10px;
+	float: right;
+}
+.set .set_b {
+	display: flex;
+	justify-content: space-between;
+}
+.set_box {
+	border: 1px #eee solid;
+	padding-bottom: 10px;
+}
+.set_box>a>img {
+	width: 390px;
+	height: 210px;
+}
+.set_box div {
+	display: flex;
+	justify-content: space-around;
+}
+.set_box div a {
+	display: block;
+	width: 114px;
+	text-align: center;
+	margin-top: 16px;
+}
+.set_box div a img {
+	width: 114px;
+}
+.set_box div a span {
+	font-size: 12px;
+	color: #000;
+}
+/*set end*/
+/*linn start*/
+.linn>p {
+	padding-top: 44px;
+	padding-bottom: 22px;
+}
+.linn>p span:nth-child(1) {
+	font-weight: bold;
+	font-size: 22px;
+	color: #666;
+}
+.linn>p span:nth-child(2) {
+	font-size: 12px;
+	padding-top: 10px;
+	float: right;
+}
+.linn_con {
+	display: flex;
+	justify-content: space-between;
+}
+.linn_con li {
+	width: 224px;
+}
+.linn_con li div {
+	padding-bottom: 26px;
+}
+.linn_con li div img {
+	width: 224px;
+	height: 340px;
+}
+.linn_con li div p {
+	height: 38px;
+	line-height: 38px;
+	color: #f36;
+}
+.linn_con li div p span {
+	display: block;
+	float: right;
+	height: 38px;
+	font-size: 12px;
+	color: #999;
+	background: url(../img/content/con_s.png) no-repeat left center;
+	background-size: 14px 14px;
+	padding-left: 16px;
+}
+.linn_con li div a:last-child {
+	display: block;
+	height: 18px;
+	background: url(../img/content/con_yx.png) no-repeat;
+	background-size: 40px 18px;
+	width: 180px;
+	font-size: 14px;
+	color: #666;
+	padding-left: 44px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.linn_con li div a:last-child:hover {
+	color: #f36;
+}
+/*linn end*/

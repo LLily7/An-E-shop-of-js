@@ -1,0 +1,46 @@
+/*header start*/
+.header_back {
+	height: 30px;
+	background: #f8f8f8;
+}
+.header>ul {
+	display: flex;
+	justify-content: flex-end;
+	height: 30px;
+	align-items: center;
+	font-size: 12px;
+}
+.header>ul>li>a {
+	display: block;
+	padding: 0 18px;
+	border-right: 1px #ccc dotted;
+	height: 16px;
+	display: flex;
+	align-items: center;
+}
+.header ul li {
+	position: relative;
+	padding: 7px 0;
+}
+.header ul li a:hover {
+	color: #ff3568;
+}
+.header span {
+	display: inline-block;
+	height: 16px;
+	background: url(../img/header/mls_1.png) no-repeat;
+	margin-right: 8px;
+}
+.header ul ul {
+	position: absolute;
+	top: 30px;
+	border: 1px #eee solid;
+	background: #f8f8f8;
+	display: none;
+	z-index: 999;
+}
+.header ul ul li a {
+	display: block;
+	padding: 3px 18px;
+}
+/*header end*/

@@ -1,0 +1,18 @@
+body {
+	background: #f2f0f0;
+}
+.logo {
+	width: 980px;
+	margin: 0 auto;
+	padding: 40px 0 28px;
+}
+.logo img {
+	width: 210px;
+}
+.content_back {
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+
+

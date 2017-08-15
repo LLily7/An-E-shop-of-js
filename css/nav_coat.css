@@ -1,0 +1,378 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "微软雅黑";
+}
+img {
+	display: block;
+	border: none;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+.layout {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*header start*/
+.header_back {
+	height: 30px;
+	background: #f8f8f8;
+}
+.header>ul {
+	display: flex;
+	justify-content: flex-end;
+	height: 30px;
+	align-items: center;
+	font-size: 12px;
+}
+.header>ul>li>a {
+	display: block;
+	padding: 0 18px;
+	border-right: 1px #ccc dotted;
+	height: 16px;
+	display: flex;
+	align-items: center;
+}
+.header ul li {
+	position: relative;
+	padding: 7px 0;
+}
+.header ul li a:hover {
+	color: #ff3568;
+}
+.header span {
+	display: inline-block;
+	height: 16px;
+	background: url(../img/header/mls_1.png) no-repeat;
+	margin-right: 8px;
+}
+.header ul ul {
+	position: absolute;
+	top: 30px;
+	border: 1px #eee solid;
+	background: #f8f8f8;
+	display: none;
+	z-index: 999;
+}
+.header ul ul li a {
+	display: block;
+	padding: 3px 18px;
+}
+/*header end*/
+/*fixed_l start*/
+.fixed_l {
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	z-index: 999;
+	width: 264px;
+}
+/*fixed_l end*/
+
+/*moment start*/
+.moment img {
+	width: 1200px;
+}
+/*moment end*/
+/*top start*/
+.top {
+	height: 156px;
+	display: flex;
+	justify-content: space-between;
+}
+.top>a {
+	display: block;
+	width: 204px;
+	height: 52px;
+	margin-top: 40px;
+}
+.top .logo {
+	width: 204px;
+	height: 52px;
+}
+.top .seek {
+	padding-top: 20px;
+	position: relative;
+}
+.top .seek p:nth-child(1) {
+	display: flex;
+	justify-content: flex-start;
+	height: 24px;
+}
+.top .seek p:nth-child(1) a {
+	display: block;
+	width: 56px;
+	height: 24px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 24px;
+}
+.top .seek p:nth-child(1) a.click {
+	background: #f36;
+	color: #fff;
+}
+.top .seek p:nth-child(1) a.noclick {
+	background: #f2f2f2;
+	color: #666;
+}
+.top .seek p:nth-child(2) {
+	height: 32px;
+}
+.top .seek p:nth-child(2) input {
+	width: 435px;
+	height: 28px;
+	border: 2px #f36 solid;
+	padding-left: 10px;
+	font-size: 12px;
+	float: left;
+}
+#menu {
+	position: absolute;
+	box-sizing: border-box;
+	border: 1px #eee solid;
+	width: 447px;
+	top: 76px;
+	background: #fff;
+	z-index: 1000;
+}
+#menu a {
+	background: #fff;
+	color: #666;
+}
+#menu a:hover {
+	background: #eee;
+	color: #f36;
+}
+.top .seek p:nth-child(2) a {
+	display: block;
+	float: left;
+	width: 70px;
+	height: 32px;
+	background: #f36 url(../img/header/mls_2.png) no-repeat center center;
+}
+.top .seek p:last-child {
+	margin-top: 5px;
+}
+.top .seek p:last-child a {
+	font-size: 12px;
+	padding-right: 10px;
+}
+/*top end*/
+/*nav start*/
+.nav_back {
+	border-bottom: 1px #dedede solid;
+}
+.nav {
+	display: flex;
+}
+.nav li {
+	flex: 1;
+}
+.nav a {
+	display: inline-block;
+	height: 42px;
+	font-size: 16px;
+	line-height: 42px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.nav a.in {
+	color: #f36;
+	border-bottom: 2px #f36 solid;
+}
+.nav a.co {
+	color: #666;
+	border: none;
+}
+/*nav end*/
+/*menu_t start*/
+.menu_con {
+	height: 148px;
+	border: 1px #e1e1e1 solid;
+	margin: 15px 0 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.menu_con div {
+	display: flex;
+	font-size: 12px;
+}
+.menu_con img {
+	width: 66px;
+	height: 66px;
+}
+.menu_con dl {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.menu_con dt {
+	padding-bottom: 10px;
+}
+.menu_con dt a {
+	font-weight: bold;
+	color: #000;
+}
+.menu_con li {
+	padding: 4px 8px;
+}
+.menu_con li a:hover {
+	color: #f36;
+}
+/*menu_t end*/
+/*option start*/
+.option {
+	border: 1px #e1e1e1 solid;
+	background: #f8f8f8;
+	display: flex;
+	font-size: 12px;
+}
+.option ul {
+	height: 42px;
+	display: flex;
+}
+.option ul li a {
+	display: block;
+	box-sizing: border-box;
+	width: 64px;
+	text-align: center;
+	line-height: 42px;
+}
+.option ul li:nth-child(1) a {
+	border-right: 1px #e1e1e1 solid;
+	background: #fff;
+}
+.option ul li a:hover {
+	color: #f36;
+}
+.option span {
+	position: relative;
+}
+.option span>a {
+	display: block;
+	width: 64px;
+	text-align: center;
+	line-height: 42px;
+	background: url(../img/nav_coat/option.png) no-repeat right center;
+}
+.option span:hover ol {
+	display: block;
+}
+.option span ol {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	background: #fff;
+	border: 1px #e1e1e1 solid;
+}
+.option span ol a {
+	display: block;
+	width: 110px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+.option p {
+	margin-top: 6px;
+	margin-left: 42px;
+	display: flex;
+}
+.option input {
+	width: 64px;
+	height: 24px;
+	border: 1px #eaeaea solid;
+}
+.option p a {
+	display: block;
+	width: 34px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	background: #fff;
+	border: 1px #eaeaea solid;
+	margin-left: 5px;
+}
+.option p a:hover {
+	color: #f36;
+}
+/*option end*/
+/*linn start*/
+.linn {
+	padding-top: 20px;
+}
+.linn>div {
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	display: none;
+}
+.linn>div img {
+	height: 150px;
+	width: 120px;
+	margin: 100px auto 10px;
+}
+.linn>div span {
+	font-size: 14px;
+	color: #666;
+}
+.linn_con {
+	/*display: flex;
+	justify-content: space-between;*/
+	height: 100%;
+	overflow: hidden;
+}
+.linn_con li {
+	float: left;
+	width: 224px;
+}
+.linn_con li:nth-child(n+2) {
+	margin-left: 20px;
+}
+.linn_con li div {
+	padding-bottom: 26px;
+}
+.linn_con li div img {
+	width: 224px;
+	height: 340px;
+}
+.linn_con li div p {
+	height: 38px;
+	line-height: 38px;
+	color: #f36;
+}
+.linn_con li div p span {
+	display: block;
+	float: right;
+	height: 38px;
+	font-size: 12px;
+	color: #999;
+	background: url(../img/content/con_s.png) no-repeat left center;
+	background-size: 14px 14px;
+	padding-left: 16px;
+}
+.linn_con li div a:last-child {
+	display: block;
+	height: 18px;
+	background: url(../img/content/con_yx.png) no-repeat;
+	background-size: 40px 18px;
+	width: 180px;
+	font-size: 14px;
+	color: #666;
+	padding-left: 44px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.linn_con li div a:last-child:hover {
+	color: #f36;
+}
+/*linn end*/
